@@ -1,0 +1,38 @@
+<div id='largecontainer'>
+  <div id='largeborder'>
+    <h2><center>About Us</center></h2>
+    <div id='container'>
+      <div id='img'>
+        <img src=https://d0dd7a01-034e-4c8d-98ca-ae203cbc23fe-00-2dbmygcgspys8.picard.replit.dev/static/blackperson.jpg  height=150>
+      </div>
+      <div id='text'>
+    <h3>Shiloh Sobowale, 13</h3>
+    <p>Shiloh is currently a high school student attending Kardinia International College. He is quite excels in academics but also has quite the athletic profile. He loves basketball, programming and video games. This website was made as a programming project to start his journey in web development. </p>
+      </div>    
+    </div>
+    <div id='container'>
+      <div id='img2'>
+        <img src='https://d0dd7a01-034e-4c8d-98ca-ae203cbc23fe-00-2dbmygcgspys8.picard.replit.dev/static/other%20guy.jpg'
+          height='300'>
+      </div>
+      <div id='text2'>
+        <h3>Other Guy</h3>
+        <p>This other guy is completely random and is only here for testing purposes.</p>
+      </div>
+    </div>
+    <h2>Get Started</h2>
+    <div class='border-bottom' style='text-align: center; padding-bottom: 10px';>
+      <p>Pick your preferred level:</p>
+      <button type='button' class='button'>Level 1</button>
+      <button type='button' class='button'>Level 2</button>
+      <button type='button' class='button'>Level 3</button>
+      <button type='button' class='button'>Level 4</button>
+    </div>
+    <h2>Reviews:</h2>
+    <div >
+      {% for comment in comments %}
+        {% include 'comments.html' %}
+      {% endfor %}
+    </div>
+  </div>
+<div>  
