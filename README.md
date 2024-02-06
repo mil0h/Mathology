@@ -1,1 +1,1 @@
-# its-maths
+# mathology
